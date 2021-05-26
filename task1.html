@@ -1,0 +1,133 @@
+<!DOCTTYPE html>
+ <html>
+	<head>
+		<h1>
+			Company Registration Form        		
+		</h1>
+	 <style>
+		.styled-table
+		{
+			border-collapse: collapse;
+			margine: 25px 0;	
+			font-size: 0.9em;
+			min-width:400px;
+			box-shadow: 0 0 20px rgba(0,0,0,0.15);	
+		}
+		.styled-table thead tr
+		{
+		 background-color: #009879;
+		 color: #ffffff;
+		text-align: left;
+		}
+		.styled-table th, .styled-table td
+		{
+			padding: 12px 15px;
+		}  
+		.styled-table tbody tr
+		{
+			border-bottom: 1px solid #dddddd;
+		}
+		.styled-table tbody tr:nth-of-type(even)
+		{
+			background-color: #f3f3f3;
+		}
+		
+		.styled-table tbody tr:last-of-type
+		{
+		   border-bottom: 2px solid #009879;
+		}
+		.styled-table tbody tr.active-row
+		{
+		   font-weight: bold;
+			color: #009879;	
+		}
+	</style>
+	</head>
+	<body>
+		<form>
+			<table>
+					<tr>
+					<td>
+					First Name:
+					</td>
+					<td>
+					<input type="text" placeholder="First name"  name="">
+					</td>
+                                            			</tr>
+					<tr>
+					<td>
+					Last Name:
+					</td>
+					<td>
+					<input type="text" placeholder="Last name"  name="">
+					</td>
+                                            			</tr>
+					<tr>
+					<td>
+					Email Id:
+					</td>
+					<td>
+					<input type="text" placeholder="Email Id" email="">
+					</td>
+                                            			
+				</tr>
+				<tr>
+					<td>
+					Password:
+					</td>
+					<td>
+					<input type="password"  placeholder="password" name="">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="radio" name="gender" id="male" value="male">Male
+					</td>
+					<td>
+						<input type="radio" name="gender" id="female" value="female">Female
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<input type="button" name="submit" value="SUBMIT">
+					</td>
+				</tr>
+			
+			</table>
+			</br>
+			<h2>Student Details</h2>
+			<table class="styled-table">
+				<thead>
+					<tr>
+						<th>Student Name</th>
+						<th>Cource Name</th>
+						<th>Points</th>
+						<th>University</th>
+						
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Yash</td>
+						<td>Computer Science</td>
+						<td>80</td>
+						<td>G.T.U</td>
+					</tr>
+					<tr>
+						<td>Vedang</td>
+						<td>Computer Science</td>
+						<td>90</td> 
+						<td>G.T.U</td>
+					</tr>
+					<tr>
+						<td>Bhavya</td>
+						<td>Computer Science</td>
+						<td>85</td> 
+						<td>G.T.U</td>
+					</tr>
+				</tbody>
+			
+			</table>	
+		</form>
+	</body>
+</html>
