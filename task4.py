@@ -66,7 +66,7 @@ print("****************************************")
 import scratch                     
  #here a module is imported and then it's code is executed.
 
-print(scratch.fun2("Vedang Jani"))    
+print(scratch.fun2("yash solanki"))    
 
 print("****************************************")
 
